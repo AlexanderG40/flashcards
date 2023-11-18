@@ -1,0 +1,30 @@
+<!--This tells the browser this is an HTML doc-->
+<!DOCTYPE html>
+<!--Start the HTML code setting the lang to English-->
+<html lang="en">
+<!-- Add the head tag to contain the metadata and other items like title and links to CSS-->
+
+<head>
+    <!--Add meta data-->
+    <meta charset="UTF-8">
+    <!-- This meta data allows our page to loom great in different screen resolutions-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add a title for our browser tag-->
+    <title>Flashcard Study Buddy</title>
+    <!-- Add a link to our CSS file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--The body tag to contain the content for our very own page-->
+<body>
+    <!--Add the div to contain our flashcards-->
+    <div id="flashcard-container">
+        <!--Next the flash card inside the flash container-->
+        <div onclick="updateFlashCard();" id="flashcard">Click to flip the flashcard over</div>
+    </div>
+    <!-- Add an HTML button to get the next card-->
+    <button id="next">Next Card</button>
+    <!--Link to our JavaScript file-->
+    <script src="script.js"></script>
+    
+</body>
+</html>
